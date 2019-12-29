@@ -4,7 +4,6 @@
 |Column|Type|Options|
 |------|----|-------|
 |name|string|index: true, null: false|
-|Email|string|null: false|
 
 ### Association
 - has_many :groups, through: :groups_users
